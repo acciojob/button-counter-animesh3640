@@ -4,7 +4,7 @@ import './../styles/App.css';
 const App = () => {
   let [count , setCount] = useState(0)
 
-  function countClicks(){
+  function countClicks(){ 
     setCount(count+1);
   }
   return (
